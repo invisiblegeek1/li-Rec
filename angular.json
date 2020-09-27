@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "li-Rec"
+    }
+  },
+  "defaultProject": "li-Rec",
+  "cli": {
+    "analytics": false
+  }
 }

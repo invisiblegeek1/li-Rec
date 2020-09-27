@@ -1,1 +1,156 @@
-/* You can add global styles to this file, and also import other style files */
+/*   LIREC     HEADER-STYLE       STARTS    */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#li-recHeader {
+  border-top: 2.5px solid #ff7800;
+  top: 0;
+  background-color: #454547;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+/*   LIREC     NAVBAR-STYLE     STARTS     */
+
+.navbar-brand {
+  font-weight: bolder;
+  text-shadow: 0 0 7px black;
+}
+.navbar-brand span {
+  font-size: 40px;
+  color: black;
+  text-shadow: 0 0 1.5px whitesmoke;
+}
+.navbar-nav {
+  color: rgb(168, 166, 166);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/*   LIREC      NAVBAR-STYLE      ENDS     */
+
+/*   LIREC      HEADER-STYLE      ENDS      */
+
+/*    Home page styling     */
+
+/*   LIREC     INTRO-SECTION      STARTS    */
+
+/*   LIREC     INTRO-SECTION       ENDS     */
+.top-intro-section h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/*   LIREC    INSTRUCTION-SECTION    STARTS   */
+
+.instruction-section .container {
+  border-radius: 25px;
+  box-shadow: -15px -15px 15px rgb(0, 0, 0, 0.1),
+    15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+.instruction-section .container ol li {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding-top: 2%;
+  padding-right: inherit;
+  text-shadow: 0 0 2px whitesmoke;
+  list-style-position: inside;
+}
+.instruction-section .container h3 {
+  font-weight: bolder;
+  color: #ff7800;
+  text-shadow: 0 0 2px black;
+}
+
+/*   LIREC    INSTRUCTION-SECTION    ENDS    */
+
+/*   LIREC    VIDEO-SECTION       STARTS    */
+
+.video-viewing-section video {
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+.video-viewing-section .container {
+  border-radius: 25px;
+  box-shadow: -15px -15px 15px rgb(0, 0, 0, 0.1),
+    15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+.video-viewing-section .container h2 {
+  text-align: center;
+  color: #454547;
+  text-shadow: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*   LIREC    VIDEO-SECTION       ENDS    */
+
+/*      Home page Ends      */
+
+/*     LIREC       FOOTER-STYLE        STARTS     */
+
+.full-footer {
+  background-color: #454547;
+  border-top: 3px solid #ff7800;
+}
+
+.top-footer {
+  color: whitesmoke;
+}
+
+.top-footer span {
+  font-size: 27px;
+  font-weight: bolder;
+  text-shadow: 0 0 7px black;
+}
+
+.top-footer p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 0 4px black;
+}
+
+.top-footer h3 {
+  color: #ff7800;
+  text-shadow: 0 0 7px black;
+  font-size: 17px;
+}
+
+#contactus {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 0 4px black;
+}
+
+.bottom-footer {
+  background-color: #454547;
+  border-top: 3px solid #ff7800;
+  color: whitesmoke;
+  box-shadow: -15px -15px 15px rgb(0, 0, 0, 0.1),
+    15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-shadow: 0 0 2px black;
+}
+
+h4 {
+  text-shadow: 0 0 3px black;
+  color: #ff7800;
+}
+
+h2 {
+  text-shadow: 0 0 2px black;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+/*     LIREC       FOOTER-STYLE          ENDS      */
