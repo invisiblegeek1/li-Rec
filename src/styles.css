@@ -1,8 +1,14 @@
-/*   LIREC     HEADER-STYLE       STARTS    */
+
 
 html {
   scroll-behavior: smooth;
 }
+
+/*--------------------------------------------------------------------------------------------------     Home page styling    -----------------------------------------------------------------------------------------------------*/
+
+
+
+/*   LIREC     HEADER-STYLE       STARTS     ------------------------------------------------------------------------------------------------------*/
 
 #li-recHeader {
   border-top: 2.5px solid #ff7800;
@@ -12,9 +18,6 @@ html {
   position: fixed;
   width: 100%;
 }
-
-/*   LIREC     NAVBAR-STYLE     STARTS     */
-
 .navbar-brand {
   font-weight: bolder;
   text-shadow: 0 0 7px black;
@@ -31,20 +34,24 @@ html {
   font-weight: bolder;
 }
 
-/*   LIREC      NAVBAR-STYLE      ENDS     */
+/*   LIREC      HEADER-STYLE      ENDS      -----------------------------------------------------------------------------------------------------*/
 
-/*   LIREC      HEADER-STYLE      ENDS      */
 
-/*    Home page styling     */
 
-/*   LIREC     INTRO-SECTION      STARTS    */
 
-/*   LIREC     INTRO-SECTION       ENDS     */
+/*  TOP-INTRO-SECTION STARTS    -----------------------------------------------------------------------------------------------------------------*/
+
 .top-intro-section h5 {
   font-size: 1.1rem;
   font-weight: bold;
 }
-/*   LIREC    INSTRUCTION-SECTION    STARTS   */
+
+/*  TOP-INTRO-SECTION ENDS    -----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*   LIREC    INSTRUCTION-SECTION    STARTS   ---------------------------------------------------------------------------------------------------*/
 
 .instruction-section .container {
   border-radius: 25px;
@@ -65,9 +72,12 @@ html {
   text-shadow: 0 0 2px black;
 }
 
-/*   LIREC    INSTRUCTION-SECTION    ENDS    */
+/*   LIREC    INSTRUCTION-SECTION    ENDS    ----------------------------------------------------------------------------------------------------*/
 
-/*   LIREC    VIDEO-SECTION       STARTS    */
+
+
+
+/*   LIREC    VIDEO-SECTION       STARTS    -----------------------------------------------------------------------------------------------------*/
 
 .video-viewing-section video {
   background: black;
@@ -82,17 +92,18 @@ html {
 
 .video-viewing-section .container h2 {
   text-align: center;
-  color: #454547;
-  text-shadow: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #3498db;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 5px;
 }
 
-/*   LIREC    VIDEO-SECTION       ENDS    */
+/*   LIREC    VIDEO-SECTION       ENDS    ------------------------------------------------------------------------------------------------------*/
 
-/*      Home page Ends      */
 
-/*     LIREC       FOOTER-STYLE        STARTS     */
+
+
+/*     LIREC       FOOTER-STYLE        STARTS     ----------------------------------------------------------------------------------------------*/
 
 .full-footer {
   background-color: #454547;
@@ -153,4 +164,10 @@ h2 {
   font-size: 50px;
 }
 
-/*     LIREC       FOOTER-STYLE          ENDS      */
+/*     LIREC       FOOTER-STYLE          ENDS      --------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------      Home page Ends      --------------------------------------------------------------------------------------------------------------------*/
